@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffe Time</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Coffee Time!!!!</h1>
+    
+    <div class="timeSelect" style="width: 200px;">
+    <select class="min-select" id="countId">
+        <option value="0.5">30 min</option>
+        <option value="1">1 ho</option>
+        <option value="2">2 ho</option>
+        <option value="3">3 ho</option>
+        <option value="4">4 ho</option>
+        <option value="5">5 ho</option>
+        <option value="6">6 ho</option>
+    </select>
+    </div>
+    
+    <a href="#" class="btn btn-coffee" id="playpause">Take Coffee</a>
+    <a href="#" class="btn btn-pause" id="reset">Had you finished coffee?</a>
+
+    <div class="container clock">
+        <div class="row row-centered">
+            <div class="col-xs-6 clock-display">
+                <h3 id="time_left"></h3>
+                
+            </div>
+        </div>
+
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
